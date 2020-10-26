@@ -1,7 +1,76 @@
 fileFormatVersion: 2
 guid: 70dbcee4c0fdb064a89c4ebbf13310b1
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8197145742637289093
+    second: HealthBar_Hurt_0
+  - first:
+      213: -1158277971922400302
+    second: HealthBar_Hurt_1
+  - first:
+      213: 1396793183514344342
+    second: HealthBar_Hurt_2
+  - first:
+      213: -4293375217273883069
+    second: HealthBar_Hurt_3
+  - first:
+      213: -2601707909306955652
+    second: HealthBar_Hurt_4
+  - first:
+      213: 7596636906952283564
+    second: HealthBar_Hurt_5
+  - first:
+      213: 2983479559995065154
+    second: HealthBar_Hurt_6
+  - first:
+      213: 5460932539490763117
+    second: HealthBar_Hurt_7
+  - first:
+      213: -8419906358294379395
+    second: HealthBar_Hurt_8
+  - first:
+      213: 8172398350165725458
+    second: HealthBar_Hurt_9
+  - first:
+      213: -2168078274454011892
+    second: HealthBar_Hurt_10
+  - first:
+      213: 380436175044868838
+    second: HealthBar_Hurt_11
+  - first:
+      213: 8542647457433618536
+    second: HealthBar_Hurt_12
+  - first:
+      213: -4396833887615973785
+    second: HealthBar_Hurt_13
+  - first:
+      213: -7177295662361054148
+    second: HealthBar_Hurt_14
+  - first:
+      213: 2991489345980578786
+    second: HealthBar_Hurt_15
+  - first:
+      213: -2850112736515739005
+    second: HealthBar_Hurt_16
+  - first:
+      213: 5143903847098768139
+    second: HealthBar_Hurt_17
+  - first:
+      213: -965464522130435615
+    second: HealthBar_Hurt_18
+  - first:
+      213: -5630306152548490852
+    second: HealthBar_Hurt_19
+  - first:
+      213: 8052733046460744192
+    second: HealthBar_Hurt_20
+  - first:
+      213: 8343974106372181257
+    second: HealthBar_Hurt_21
+  - first:
+      213: -6614946817812848378
+    second: HealthBar_Hurt_22
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,14 +109,14 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -97,7 +166,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: HealthBar_Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 256
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71bffd9063ed3e80800000000000000
+      internalID: -8197145742637289093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar_Hurt_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 256
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbc7644258fcefe0800000000000000
+      internalID: -1158277971922400302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar_Hurt_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 256
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b3f08fff7626310800000000000000
+      internalID: 1396793183514344342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar_Hurt_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 256
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346bce6bcfdda64c0800000000000000
+      internalID: -4293375217273883069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar_Hurt_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 256
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c784f60e070e4ebd0800000000000000
+      internalID: -2601707909306955652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar_Hurt_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 256
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca55386a40dac6960800000000000000
+      internalID: 7596636906952283564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar_Hurt_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 256
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24305284ad2776920800000000000000
+      internalID: 2983479559995065154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar_Hurt_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6108be163129cb40800000000000000
+      internalID: 5460932539490763117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
