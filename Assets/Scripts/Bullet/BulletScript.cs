@@ -30,8 +30,7 @@ public class BulletScript : MonoBehaviour
     {
         if (arg_collider != null & ((1 << arg_collider.gameObject.layer) & groundLayerMask) != 0)
         {
-            Debug.Log("collision 2");
-            //animManager.SetAnimation(BulletAnimStateEnum.Bullet_Explode);
+            animManager.SetAnimation(BulletAnimStateEnum.Bullet_Explode);
         }
     }
 
