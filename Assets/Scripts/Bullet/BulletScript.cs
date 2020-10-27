@@ -5,6 +5,7 @@ using UnityEngine;
 public class BulletScript : MonoBehaviour
 {
     [SerializeField] private BulletAnimManagerScript animManager;
+    [SerializeField] private LayerMask groundLayerMask;
     private Bullet bullet = new Bullet();
 
 
@@ -25,11 +26,13 @@ public class BulletScript : MonoBehaviour
     }
 
 
-    //  OnCollision
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D arg_collider)
     {
-        Debug.Log("collision");
-        //animManager.SetAnimation(BulletAnimStateEnum.Bullet_Explode);
+        if (arg_collider != null & ((1 << arg_collider.gameObject.layer) & groundLayerMask) != 0)
+        {
+            Debug.Log("collision 2");
+            //animManager.SetAnimation(BulletAnimStateEnum.Bullet_Explode);
+        }
     }
 
 
