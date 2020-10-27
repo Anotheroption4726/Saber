@@ -20,6 +20,12 @@ TextureImporter:
   - first:
       213: -7968270064203986258
     second: projectile_explol_1
+  - first:
+      213: 10826747285095102
+    second: projectile_explol_2
+  - first:
+      213: -8509153501282418436
+    second: projectile_explol_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -124,8 +130,8 @@ TextureImporter:
         y: 0
         width: 32
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -145,8 +151,8 @@ TextureImporter:
         y: 0
         width: 32
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -166,15 +172,15 @@ TextureImporter:
         y: 0
         width: 32
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eae371a7efa315e30800000000000000
-      internalID: 4490435168109543086
+      spriteID: eb2400a8ed6762000800000000000000
+      internalID: 10826747285095102
       vertices: []
       indices: 
       edges: []
@@ -187,15 +193,15 @@ TextureImporter:
         y: 0
         width: 32
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 613a25f85fc9d9f20800000000000000
-      internalID: 3431071069611664150
+      spriteID: cf04ac859f969e980800000000000000
+      internalID: -8509153501282418436
       vertices: []
       indices: 
       edges: []
